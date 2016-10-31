@@ -9,6 +9,9 @@ this.s=s;
 this.r=r;
 	}
 	public int getFuctrial(int s, int  r ){
+	if (r*(r-s)==0){
+		return 1;
+	}
 		for (int x=s;x>=r;x--){
 		y=y*x;	
 		}
